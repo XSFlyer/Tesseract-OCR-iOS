@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.summary                 = 'Use Tesseract OCR in iOS projects written in either Objective-C or Swift.'
 
-  s.homepage                = 'https://github.com/gali8/Tesseract-OCR-iOS'
+  s.homepage                = 'https://github.com/XSFlyer/Tesseract-OCR-iOS'
   s.documentation_url       = 'https://github.com/gali8/Tesseract-OCR-iOS/blob/master/README.md'
 
   s.license                 = { :type => 'MIT',
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.authors                 = { 'Daniele Galiotto' => 'genius@g8production.com',
                                 'Kevin Conley' => 'kcon@stanford.edu'}
 
-  s.source                  = { :git => 'https://github.com/gali8/Tesseract-OCR-iOS.git',                                                         :tag => s.version.to_s }
+  s.source                  = { :git => 'https://github.com/XSFlyer/Tesseract-OCR-iOS.git',                                                         :tag => s.version.to_s }
 
   s.platform                = :ios, "8.0"
   s.source_files            = 'TesseractOCR/*.{h,m,mm}', 'TesseractOCR/include/**/*.h'
